@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Tela de Login</title>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+     
+    <div class="main">
+      <div class="items1">
+        <i class="fa-solid fa-camera" id="camera"></i>
+        <span class="Titulo">USER LOGIN</span>
+      </div>
+      <div class="inputs" >
+        <input
+          type="text"
+          class="receber_dados"
+          name=""
+          id=""
+          placeholder="Email ID"
+        />
+        <span id="icone_email">@</span>
+      </div>
+      <div class="inputs">
+        <input
+          type="password"
+          class="receber_dados"
+          name=""
+          id="senha"
+          placeholder="Password"
+        />
+        <i
+          class="fa-solid fa-eye-slash"
+          id="icone"
+          onclick="mostrarOcultarSenha()"
+        ></i>
+        <i class="fa-solid fa-lock" id="icone_lock"></i>
+      </div>
+
+      <div class="remember">
+        <div class="lembrar"><input type="checkbox" class="input_lembrar" name="" id="" /><span style="  font-size: 10px;"
+          class="lembrar"
+          >Remember me</span
+        ></div>
+        <div class="forgot"><a href="" class="forgot_pass">Forgot Password?</a>
+      </div></div>
+      <div class="btn_login"><button class="btn">Login</button></div>
+    </div>
+    
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
